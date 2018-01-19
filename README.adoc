@@ -1,0 +1,1 @@
+= Alternative à Btoa pour l'encodage base64 d'un texte utf8
