@@ -1,0 +1,16 @@
+<h1>Base 64 Encode/Decode demo</h1>
+<h2>Proposition de correction encodage base64 utf-8</h2>
+<p>
+  Solution pour remplacer la fonction <em>btoa</em> qui est déficiente en ce qui concerne l'encodage de l'UTF8
+</p>
+
+<p>
+  <input [(ngModel)]="base64Value" (keyup)="encodeBase64(true)">
+  ---> base64:
+  <span style="padding: 0 1em; color: crimson;">{{ base64encoded }}</span>
+  ---> décodé par le serveur:
+  <span style="padding: 0 1em; color: darkgreen;">{{ base64decoded }}</span>
+</p>
+<p>
+  utilisation btoa <input type="checkbox" [(ngModel)]="useBtoa">
+</p>
