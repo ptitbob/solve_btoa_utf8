@@ -1,1 +1,7 @@
 = Alternative à `Btoa` pour l'encodage base64 d'un texte utf8
+
+
+Solution inspirée de https://stackoverflow.com/questions/30106476/using-javascripts-atob-to-decode-base64-doesnt-properly-decode-utf-8-strings(Using Javascript's atob to decode base64 doesn't properly decode utf-8 strings).
+
+
+lancement webapp -> ng serve

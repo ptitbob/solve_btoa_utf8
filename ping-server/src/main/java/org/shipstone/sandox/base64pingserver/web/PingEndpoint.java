@@ -26,8 +26,8 @@ public class PingEndpoint {
   public String decode(
       @RequestHeader HttpHeaders httpHeaders
   ) {
-    String password = httpHeaders.getFirst("password");
-    return new String(Base64.getDecoder().decode(password.getBytes()));
+    String data = httpHeaders.getFirst("data");
+    return new String(Base64.getDecoder().decode(data.getBytes()));
   }
 
 }
